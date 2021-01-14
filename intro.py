@@ -48,7 +48,7 @@ def intro():
         messages.message_to_screen(introDisplay, "1-Player", settings.small_text, settings.white, 95, 310)
         messages.message_to_screen(introDisplay, "2-Player", settings.small_text, settings.white, 425, 310)
 
-        # updates the frames of the game
+        # Updates the frames of the game
         pygame.display.update()
 
     pygame.quit()
